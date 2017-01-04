@@ -1,0 +1,40 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+* {
+  font-family: arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+
+  tr {
+    td, th {
+      border: 1px solid #CCC;
+      padding: 10px;
+    }
+
+    th {
+      background: #EEE;
+    }
+  }
+}
+
+input[type='number'] {
+  padding: 5px;
+}
+
+#results {
+  display: none;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.btn-square {
+  border-radius: 0;
+}
